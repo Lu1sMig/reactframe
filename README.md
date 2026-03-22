@@ -43,19 +43,16 @@ Ejecutar en modo desarrollo:
     La aplicación se abrirá en http://localhost:3000.
 
 ## 🗂️ Estructura del Repositorio
+
+```Bash  
 /src/components: Componentes reutilizables siguiendo patrones atómicos.
-
 /src/hooks: Lógica extraída en Custom Hooks.
-
 /src/patterns: Ejemplos específicos de cada patrón del libro.
-
 /src/styles: Configuraciones globales de CSS-in-JS.
 
 Notas: Este proyecto se actualiza conforme avanzo en los capítulos del libro.
 
-
 ---
-
 ### Pasos para subirlo a GitHub:
 
 1. **Inicializa Git** en la carpeta de tu proyecto (si no lo has hecho):
