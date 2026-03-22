@@ -37,13 +37,11 @@ Si deseas replicar este entorno en tu máquina local:
     npm install
 
 Ejecutar en modo desarrollo:
-
-    ```Bash
-    npm start
-    La aplicación se abrirá en http://localhost:3000.
+   ```Bash
+   npm start
+   La aplicación se abrirá en http://localhost:3000.
 
 ## 🗂️ Estructura del Repositorio
-
 ```Bash  
 /src/components: Componentes reutilizables siguiendo patrones atómicos.
 /src/hooks: Lógica extraída en Custom Hooks.
