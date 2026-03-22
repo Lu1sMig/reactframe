@@ -16,8 +16,8 @@ Para este proyecto se ha configurado el siguiente entorno (basado en las recomen
 
 El desarrollo de este repositorio se divide en los pilares fundamentales descritos en el libro:
 
-1.  **Fundamentos de React:** Entender el funcionamiento de los componentes y el ciclo de vida.
-2.  **JSX y Transpilación:** Uso de Babel para convertir sintaxis moderna a código compatible.
+1.  **Fundamentos de React:** Entender el funcionamiento de componentes y ciclo de vida.
+2.  **JSX y Transpilación:** Usar Babel para sintaxis moderna a código compatible.
 3.  **Patrones de Diseño:** Implementación de *Higher-Order Components (HOC)*, *Render Props* y *Compound Components*.
 4.  **Hooks Avanzados:** Creación de hooks personalizados para lógica reutilizable.
 5.  **Gestión de Estado:** Manejo de estado local, Context API y Redux.
@@ -30,20 +30,19 @@ Si deseas replicar este entorno en tu máquina local:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/TU_USUARIO/nombre-de-tu-repo.git](https://github.com/TU_USUARIO/nombre-de-tu-repo.git)
-
-   Instalar dependencias:
+   git clone https://github.com/Lu1sMig/reactframe.git
 
 2. **Instalar Dependecias:**
-Bash
-npm install
+    ```Bash
+    npm install
+
 Ejecutar en modo desarrollo:
 
-Bash
-npm start
-La aplicación se abrirá en http://localhost:3000.
+    ```Bash
+    npm start
+    La aplicación se abrirá en http://localhost:3000.
 
-🗂️ Estructura del Repositorio
+## 🗂️ Estructura del Repositorio
 /src/components: Componentes reutilizables siguiendo patrones atómicos.
 
 /src/hooks: Lógica extraída en Custom Hooks.
@@ -65,15 +64,15 @@ Notas: Este proyecto se actualiza conforme avanzo en los capítulos del libro.
 Crea el archivo README.md y pega el contenido anterior.
 
 Agrega los archivos y haz tu primer commit:
-
-Bash
-git add .
-git commit -m "Initial commit: Setup de entorno y README"
+    ```Bash
+    git add .
+    git commit -m "Initial commit: Setup de entorno y README"
 Crea un repo en GitHub y vinculalo:
 
-Bash
-git remote add origin https://github.com/TU_USUARIO/NOMBRE_REPO.git
-git branch -M main
-git push -u origin main
+    ```Bash
+    git remote add origin https://github.com/Lu1sMig/reactframe.git
+    git branch -M main
+    git push -u origin main
+
 Consejo: Como tienes una versión de Node muy nueva (v23), si al ejecutar npm start te da algún error de compatibilidad con create-react-app, intenta usar:
 npx create-react-app mi-proyecto --template typescript directamente.
