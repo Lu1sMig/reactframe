@@ -69,7 +69,9 @@ La arquitectura sigue una organización modular para facilitar el estudio de cad
    └── tsconfig.json    + Configuración de TypeScript
    -- Notas: Este proyecto se actualiza conforme avanzo en los capítulos del libro.
 
-## 🗂️ GitHub:
+
+## 🗂️ GITHUB
+
 1. **Inicializa Git** en la carpeta de tu proyecto (si no lo has hecho):
    ```bash
    git init
