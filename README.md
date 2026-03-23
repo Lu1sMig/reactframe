@@ -4,7 +4,7 @@ Este repositorio contiene el seguimiento práctico, ejercicios y patrones de dis
 
 ## 🛠️ Entorno de Desarrollo
 
-Para este proyecto se ha configurado el siguiente entorno (basado en las recomendaciones del autor):
+Para este proyecto se ha configurado el siguiente entorno (basado en las recomendaciones del autor``):
 
 - **Editor:** Visual Studio Code
 - **Node.js:** v23.10.0     
