@@ -1,4 +1,4 @@
-# React 23: Design Patterns and Best Practices 🚀
+# React 19.2: Design Patterns and Best Practices 🚀
 
 Este repositorio contiene el seguimiento práctico, ejercicios y patrones de diseño aprendidos a través del libro **"React 17 Design Patterns and Best Practices"** de Carlos Santana Roldán. El objetivo es dominar la creación de interfaces de usuario robustas, escalables y mantenibles.
 
