@@ -34,17 +34,13 @@ Si deseas replicar este entorno en tu máquina local:
 2. **Instalar Dependecias:**
     ```bash
     npm install -g typescript
-    
-     Navega al directorio de trabajo  y crear el primer app
-     npx create-react-app mi-proyecto-react --template typescript
-     
-     D:\app_react_\mi-proyecto-react
+        Navega al directorio de trabajo  y crear el primer app
+    npx create-react-app mi-proyecto-react --template typescript
+        D:\app_react_\mi-proyecto-react
 
 Inside that directory, you can run several commands:
-
     Crear tu primer proyecto (Estructura del Libro)
     npx create-react-app mi-proyecto-react --template typescript
-
 
     Ejecutar en modo desarrollo:
     ```bash
@@ -53,16 +49,19 @@ Inside that directory, you can run several commands:
 
 ## 🗂️ Estructura del Repositorio
     ```bash  
-    /src/components: Componentes reutilizables siguiendo patrones atómicos.
-    /src/hooks: Lógica extraída en Custom Hooks.
-    /src/patterns: Ejemplos específicos de cada patrón del libro.
-    /src/styles: Configuraciones globales de CSS-in-JS.
+    app_react_/mi-proyect/
+    app_react_/public (favicon.ico/index.html/manifest.json/robots.txt)
+    app_react_/src/components: Componentes reutilizables siguiendo patrones atómicos.
+    app_react_/src/hooks: Lógica extraída en Custom Hooks.
+    app_react_/src/patterns: Ejemplos específicos de cada patrón del libro.
+    app_react_/src/styles: Configuraciones globales de CSS-in-JS.    
+    app_react_/src/views: Configuraciones globales de CSS-in-JS.  
+
 
 Notas: Este proyecto se actualiza conforme avanzo en los capítulos del libro.
 
 ---
 ### Pasos para subirlo a GitHub:
-
 1. **Inicializa Git** en la carpeta de tu proyecto (si no lo has hecho):
    ```bash
    git init
@@ -73,11 +72,16 @@ Agrega los archivos y haz tu primer commit:
     git add .
     git commit -m "Initial commit: Setup de entorno y README"
 Crea un repo en GitHub y vinculalo:
-
     ```Bash
     git remote add origin https://github.com/Lu1sMig/reactframe.git
     git branch -M main
     git push -u origin main
+
+### Pasos acpara subirlo a GitHub:
+1. **Inicializa Git** en la carpeta de tu proyecto (si no lo has hecho):
+   ```bash
+   git init
+Crea el archivo README.md y pega el contenido anterior.
 
 Consejo: Como tienes una versión de Node muy nueva (v23), si al ejecutar npm start te da algún error de compatibilidad con create-react-app, intenta usar:
 npx create-react-app mi-proyecto --template typescript directamente.
