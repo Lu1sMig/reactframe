@@ -32,14 +32,13 @@ Si deseas replicar este entorno en tu máquina local:
    git clone https://github.com/Lu1sMig/reactframe.git
 
 2. **Verificar e instalar Dependecias:**
-*** verificar dependencias*** 
     ```bash
     node -v && npm -v && nvm --version && tsc -v
 
-*** instalar dependencias*** 
+3. **Instalar dependencias**
     ```bash
     ⌂⌂ Navega al directorio de trabajo
-    
+
     ⌂⌂ Install
     nvm install node o nvm use [versión]
     npm install -g create-react-app
@@ -71,7 +70,7 @@ La arquitectura sigue una organización modular para facilitar el estudio de cad
 Notas: Este proyecto se actualiza conforme avanzo en los capítulos del libro.
 
 ---
-## GitHub:
+## 🗂️ GitHub:
 1. **Inicializa Git** en la carpeta de tu proyecto (si no lo has hecho):
    ```bash
    git init
