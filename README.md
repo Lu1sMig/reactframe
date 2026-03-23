@@ -25,7 +25,6 @@ El desarrollo de este repositorio se divide en los pilares fundamentales descrit
 7.  **Testing:** Pruebas unitarias y de integración con Jest y React Testing Library.
 
 ## 🚀 Cómo iniciar el proyecto
-
 Si deseas replicar este entorno en tu máquina local:
 
 1. **Clonar el repositorio:**
@@ -33,20 +32,31 @@ Si deseas replicar este entorno en tu máquina local:
    git clone https://github.com/Lu1sMig/reactframe.git
 
 2. **Instalar Dependecias:**
-    ```Bash
-    npm install
+    ```bash
+    npm install -g typescript
+    
+     Navega al directorio de trabajo  y crear el primer app
+     npx create-react-app mi-proyecto-react --template typescript
+     
+     D:\app_react_\mi-proyecto-react
 
-Ejecutar en modo desarrollo:
-   ```Bash
-   npm start
-   La aplicación se abrirá en http://localhost:3000.
+Inside that directory, you can run several commands:
+
+    Crear tu primer proyecto (Estructura del Libro)
+    npx create-react-app mi-proyecto-react --template typescript
+
+
+    Ejecutar en modo desarrollo:
+    ```bash
+    npm start
+    La aplicación se abrirá en http://localhost:3000.
 
 ## 🗂️ Estructura del Repositorio
-```Bash  
-/src/components: Componentes reutilizables siguiendo patrones atómicos.
-/src/hooks: Lógica extraída en Custom Hooks.
-/src/patterns: Ejemplos específicos de cada patrón del libro.
-/src/styles: Configuraciones globales de CSS-in-JS.
+    ```bash  
+    /src/components: Componentes reutilizables siguiendo patrones atómicos.
+    /src/hooks: Lógica extraída en Custom Hooks.
+    /src/patterns: Ejemplos específicos de cada patrón del libro.
+    /src/styles: Configuraciones globales de CSS-in-JS.
 
 Notas: Este proyecto se actualiza conforme avanzo en los capítulos del libro.
 
