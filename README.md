@@ -51,25 +51,7 @@ Si deseas replicar este entorno en tu máquina local:
     npm start
     
     ⌂⌂La aplicación se abrirá en http://localhost:3000.
-
-## 🗂️ Estructura del Repositorio
-La arquitectura sigue una organización modular para facilitar el estudio de cada patrón:
     
-   ```bash
-   /
-   ├── public/          + Archivos estáticos e index.html -(favicon/manifest/robots)
-   ├── src/
-   │   ├── components/  + Componentes reutilizables y atómicos
-   │   ├── hooks/       + Custom Hooks para lógica extraída
-   │   ├── patterns/    + Ejemplos específicos de cada capítulo del libro
-   │   ├── views/       + Páginas principales o contenedores de alto nivel
-   │   ├── App.tsx      + Punto de entrada de la aplicación
-   │   └── index.tsx    + Renderizado raíz
-   ├── package.json     + Scripts y dependencias
-   └── tsconfig.json    + Configuración de TypeScript
-   -- Notas: Este proyecto se actualiza conforme avanzo en los capítulos del libro.
-
-
 ## 🗂️ GITHUB
 
 1. **Inicializa Git** en la carpeta de tu proyecto (si no lo has hecho):
@@ -90,3 +72,19 @@ La arquitectura sigue una organización modular para facilitar el estudio de cad
 4. **Actualizar Files en Equipo** con cambios de GitHub-online
    ```bash
    git pull origin main
+   
+## 🗂️ Estructura del Repositorio
+La arquitectura sigue una organización modular para facilitar el estudio de cada patrón:
+   ```bash
+   /
+   ├── public/          + Archivos estáticos e index.html -(favicon/manifest/robots)
+   ├── src/
+   │   ├── components/  + Componentes reutilizables y atómicos
+   │   ├── hooks/       + Custom Hooks para lógica extraída
+   │   ├── patterns/    + Ejemplos específicos de cada capítulo del libro
+   │   ├── views/       + Páginas principales o contenedores de alto nivel
+   │   ├── App.tsx      + Punto de entrada de la aplicación
+   │   └── index.tsx    + Renderizado raíz
+   ├── package.json     + Scripts y dependencias
+   └── tsconfig.json    + Configuración de TypeScript
+   -- Notas: Este proyecto se actualiza conforme avanzo en los capítulos del libro.
