@@ -54,7 +54,8 @@ Si deseas replicar este entorno en tu máquina local:
 
 ## 🗂️ Estructura del Repositorio
 La arquitectura sigue una organización modular para facilitar el estudio de cada patrón:
-    ```bash  
+    
+   ```bash
    /
    ├── public/          - Archivos estáticos e index.html -(favicon/manifest/robots)
    ├── src/
