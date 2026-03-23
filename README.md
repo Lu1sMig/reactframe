@@ -7,7 +7,7 @@ Este repositorio contiene el seguimiento práctico, ejercicios y patrones de dis
 Para este proyecto se ha configurado el siguiente entorno (basado en las recomendaciones del autor):
 
 - **Editor:** Visual Studio Code
-- **Node.js:** v23.10.0
+- **Node.js:** v23.10.0     
 - **Gestor de paquetes:** npm 10.9.2
 - **Lenguaje Principal:** TypeScript (Template: `cra-template-typescript`)
 - **Herramientas de Calidad:** ESLint y Prettier.
@@ -31,57 +31,62 @@ Si deseas replicar este entorno en tu máquina local:
    ```bash
    git clone https://github.com/Lu1sMig/reactframe.git
 
-2. **Instalar Dependecias:**
+2. **Verificar e instalar Dependecias:**
+*** verificar dependencias*** 
     ```bash
-    npm install -g typescript
-        Navega al directorio de trabajo  y crear el primer app
-    npx create-react-app mi-proyecto-react --template typescript
-        D:\app_react_\mi-proyecto-react
+    node -v && npm -v && nvm --version && tsc -v
 
-Inside that directory, you can run several commands:
-    Crear tu primer proyecto (Estructura del Libro)
-    npx create-react-app mi-proyecto-react --template typescript
-
-    Ejecutar en modo desarrollo:
+*** instalar dependencias*** 
     ```bash
+    ⌂⌂ Navega al directorio de trabajo
+    
+    ⌂⌂ Install
+    nvm install node o nvm use [versión]
+    npm install -g create-react-app
+    
+    ⌂⌂ Crear el primer app y ejecuta:
+    npx create-react-app mi-proyecto-react --template typescript
+    
+    ⌂⌂ Alterminar se debe ver: D:\app_react_\mi-proyecto-react
+    ⌂⌂ Ejecuta el servidor
     npm start
-    La aplicación se abrirá en http://localhost:3000.
+    
+    ⌂⌂La aplicación se abrirá en http://localhost:3000.
 
 ## 🗂️ Estructura del Repositorio
+La arquitectura sigue una organización modular para facilitar el estudio de cada patrón:
     ```bash  
-    app_react_/mi-proyect/
-    app_react_/public (favicon.ico/index.html/manifest.json/robots.txt)
-    app_react_/src/components: Componentes reutilizables siguiendo patrones atómicos.
-    app_react_/src/hooks: Lógica extraída en Custom Hooks.
-    app_react_/src/patterns: Ejemplos específicos de cada patrón del libro.
-    app_react_/src/styles: Configuraciones globales de CSS-in-JS.    
-    app_react_/src/views: Configuraciones globales de CSS-in-JS.  
-
+/
+├── public/          # Archivos estáticos e index.html -(favicon/manifest/robots)
+├── src/
+│   ├── components/  # Componentes reutilizables y atómicos
+│   ├── hooks/       # Custom Hooks para lógica extraída
+│   ├── patterns/    # Ejemplos específicos de cada capítulo del libro
+│   ├── views/       # Páginas principales o contenedores de alto nivel
+│   ├── App.tsx      # Punto de entrada de la aplicación
+│   └── index.tsx    # Renderizado raíz
+├── package.json     # Scripts y dependencias
+└── tsconfig.json    # Configuración de TypeScript
 
 Notas: Este proyecto se actualiza conforme avanzo en los capítulos del libro.
 
 ---
-### Pasos para subirlo a GitHub:
+## GitHub:
 1. **Inicializa Git** en la carpeta de tu proyecto (si no lo has hecho):
    ```bash
    git init
-Crea el archivo README.md y pega el contenido anterior.
-
-Agrega los archivos y haz tu primer commit:
-    ```Bash
-    git add .
-    git commit -m "Initial commit: Setup de entorno y README"
-Crea un repo en GitHub y vinculalo:
+    Crea el archivo README.md y registra comentario.
+2. **Crea un repo en GitHub y vinculalo**
     ```Bash
     git remote add origin https://github.com/Lu1sMig/reactframe.git
     git branch -M main
+    git commit "##"
     git push -u origin main
-
-### Pasos acpara subirlo a GitHub:
-1. **Inicializa Git** en la carpeta de tu proyecto (si no lo has hecho):
+3. **Agregar Files a Git** por cambios en el equipo
+    ```Bash
+    git add .
+    git commit -m "Initial commit: Setup de entorno y README"
+    git push -u origin main
+4. **Actualizar Files en Equipo** con cambios de GitHub-online
    ```bash
-   git init
-Crea el archivo README.md y pega el contenido anterior.
-
-Consejo: Como tienes una versión de Node muy nueva (v23), si al ejecutar npm start te da algún error de compatibilidad con create-react-app, intenta usar:
-npx create-react-app mi-proyecto --template typescript directamente.
+   git pull origin main
